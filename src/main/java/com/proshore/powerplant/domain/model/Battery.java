@@ -1,12 +1,15 @@
 package com.proshore.powerplant.domain.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Getter
 @Setter
 public class Battery {
+    private Long id;
     private String name;
     private String postcode;
-    private int capacity;
+    private long capacity;
 }

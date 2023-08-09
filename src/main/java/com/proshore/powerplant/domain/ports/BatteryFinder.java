@@ -7,8 +7,8 @@ import java.util.List;
 public interface BatteryFinder {
     public Battery findBattery(String id);
 
-    public List<Battery> findAllBatteries(int limit);
+    public List<Battery> findAllBatteries();
 
-    public List<Battery> findAllBatteriesFromPostRange(int from, int to, int limit);
+    public List<Battery> findAllBatteriesFromPostRange(int from, int to, int page , int pageSize);
 
 }
