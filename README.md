@@ -18,7 +18,7 @@ The Virtual Power Plant System is a cloud-based energy aggregation platform that
 
 ## Hosted Application
 
-The Virtual Power Plant System API is hosted at [Hosted URL]().
+The Virtual Power Plant System API is hosted at [Hosted URL](https://power-plant.onrender.com).
 
 ## Documentation
 
