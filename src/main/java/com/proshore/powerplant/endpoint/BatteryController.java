@@ -29,6 +29,11 @@ public class BatteryController {
         return batteryUsecase.findAllBatteries();
     }
 
+    @GetMapping(path = "/{id}")
+    public Battery getBatteries(@PathVariable Long id){
+        return batteryUsecase.findBattery(id);
+    }
+
     @GetMapping("/all/range")
     public BatteryResponse getBatteriesFromPostcodeRange(@RequestParam int from,
                                                          @RequestParam int to,
