@@ -29,7 +29,7 @@ Detailed API documentation can be found [here](https://documenter.getpostman.com
 To run this project locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/Aryanak47/powerplant.git`
-2. Navigate to the project directory: `cd virtual-power-plant`
+2. Navigate to the project directory: `cd powerplant`
 3. Install dependencies: `./gradlew clean build`
 4. Run the application: `./gradlew bootRun`
 
