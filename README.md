@@ -11,10 +11,10 @@ The Virtual Power Plant System is a cloud-based energy aggregation platform that
 
 ## API Endpoints
 
-- `POST /api/batteries`: Save a new battery with name, postcode, and capacity.
-- `GET /api/batteries/all`: Retrieve a list of all batteries.
-- `GET /api/batteries/{id}`: Fetch a battery by its unique ID.
-- `GET /api/batteries/all/range`: Retrieve batteries within a specified postcode range along with statistics.
+- `POST /api/battery`: Save a new battery with name, postcode, and capacity.
+- `GET /api/battery/all`: Retrieve a list of all batteries.
+- `GET /api/battery/{id}`: Fetch a battery by its unique ID.
+- `GET /api/battery/all/range?from=0&to=500000&page=0&pageSize=10`: Retrieve batteries within a specified postcode range along with statistics.
 
 ## Hosted Application
 
