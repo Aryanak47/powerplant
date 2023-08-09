@@ -13,7 +13,7 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 @Service
-class BatteryUsecaseInteractor implements BatteryUsecase {
+public class BatteryUsecaseInteractor implements BatteryUsecase {
     private final BatteryFinder batteryFinder;
 
     private final BatteryCreator batteryCreator;
@@ -32,7 +32,7 @@ class BatteryUsecaseInteractor implements BatteryUsecase {
 
 
     @Override
-    public Battery findBattery(String id) {
+    public Battery findBattery(Long id) {
         return batteryFinder.findBattery(id);
     }
 

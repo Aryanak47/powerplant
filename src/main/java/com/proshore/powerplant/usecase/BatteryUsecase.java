@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface BatteryUsecase {
      Battery addNewBattery(Battery battery);
-     Battery findBattery(String id);
+     Battery findBattery(Long id);
      List<Battery> findAllBatteries();
      BatteryResponse findAllBatteriesFromPostRange(int from, int to, int page , int pageSize);
 }

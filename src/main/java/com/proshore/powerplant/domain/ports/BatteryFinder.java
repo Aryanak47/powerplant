@@ -5,7 +5,7 @@ import com.proshore.powerplant.domain.model.Battery;
 import java.util.List;
 
 public interface BatteryFinder {
-    public Battery findBattery(String id);
+    public Battery findBattery(Long id);
 
     public List<Battery> findAllBatteries();
 

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface BatteryRepo extends JpaRepository<BatteryEntity, String> {
+public interface BatteryRepo extends JpaRepository<BatteryEntity, Long> {
 
     @Query("SELECT b FROM BatteryEntity b WHERE CAST(b.postcode AS integer) BETWEEN :from AND :to ORDER BY b.name ASC")
     Optional<List<BatteryEntity>> findAllByPostcodeRange(int from, int to, Pageable pageable);

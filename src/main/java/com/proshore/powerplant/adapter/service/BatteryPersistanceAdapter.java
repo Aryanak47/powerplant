@@ -27,7 +27,7 @@ class BatteryPersistanceAdapter implements BatteryCreator, BatteryFinder {
     }
 
     @Override
-    public Battery findBattery(String id) {
+    public Battery findBattery(Long id) {
         return batteryRepo.findById(id).orElseThrow(()-> new BadRequestException("Invalid id")).to();
     }
 
